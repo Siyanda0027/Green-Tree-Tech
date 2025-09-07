@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Greentree Tech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-700">Greentree Tech</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-green-600">Home</a>
+        <a href="about.html" class="hover:text-green-600">About</a>
+        <a href="services.html" class="hover:text-green-600">Services</a>
+        <a href="contact.html" class="hover:text-green-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <main class="max-w-7xl mx-auto px-6 py-16 text-center">
+
+<!-- Services Section -->
+<main class="max-w-7xl mx-auto px-6 py-16 text-center">
+
+  <!-- Section Header -->
+  <h2 class="text-4xl font-bold text-green-700 mb-12">Our Prestige Services</h2>
+  <p class="text-gray-700 mb-8 text-lg max-w-2xl mx-auto">
+    We take pride in helping our clients achieve efficiency and sustainable growth through our IT consulting, software development, and cloud solutions.
+  </p>
+
+  <!-- Image Slider -->
+  <div class="relative w-full overflow-hidden">
+    <div class="flex animate-slide space-x-6">
+      <!-- 12 Images -->
+      <img src="assets/luca-bravo.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 1">
+      <img src="assets/jeffery-ho.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 2">
+      <img src="assets/maxim-hopman.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 3">
+      <img src="assets/alex-knight.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 4">
+      <img src="assets/annie-spratt.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 5">
+      <img src="assets/tyler-lastovich.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 6">
+      <img src="assets/mitchell-luo.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 7">
+      <img src="assets/kevin-ku.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 8">
+      <img src="assets/shubham-dhage.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 9">
+      <img src="assets/shahadat-rahman.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 10">
+      <img src="assets/imgix.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 11">
+      <img src="assets/desola-lanre-ologun.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 12">
+
+      <!-- Clone first image for smooth loop -->
+      <img src="assets/luca-bravo.jpg" class="w-64 h-40 object-cover rounded-lg shadow-lg" alt="Client 1">
+    </div>
+  </div>
+
+</main>
+
+<!-- Slider Styles -->
+<style>
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    7.69% { transform: translateX(-100%); }
+    15.38% { transform: translateX(-200%); }
+    23.07% { transform: translateX(-300%); }
+    30.76% { transform: translateX(-400%); }
+    38.45% { transform: translateX(-500%); }
+    46.14% { transform: translateX(-600%); }
+    53.83% { transform: translateX(-700%); }
+    61.52% { transform: translateX(-800%); }
+    69.21% { transform: translateX(-900%); }
+    76.9% { transform: translateX(-1000%); }
+    84.59% { transform: translateX(-1100%); }
+    100% { transform: translateX(0%); }
+  }
+
+  .animate-slide {
+    display: flex;
+    gap: 1.5rem; /* spacing between images */
+    width: 1300%; /* 12 images + clone */
+    animation: slide 490s linear infinite;
+  }
+</style>
+
+
+    <h2 class="text-3xl font-bold text-green-700 mb-12">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+        <h4 class="font-bold text-lg mb-2">IT Consulting</h4>
+        <p>Strategic guidance to help you make smarter tech decisions for sustainable growth.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+        <h4 class="font-bold text-lg mb-2">Software Development</h4>
+        <p>Custom software solutions built to optimize and streamline your business operations.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+        <h4 class="font-bold text-lg mb-2">Cloud Solutions</h4>
+        <p>Secure, scalable cloud infrastructure tailored to your business requirements.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6">
+    <p>&copy; 2025 Greentree Tech. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
